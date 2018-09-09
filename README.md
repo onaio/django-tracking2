@@ -111,7 +111,7 @@ urlpatterns = patterns('',
 )
 ```
 
-These urls are protected by a custom Django permission `tracking.view_visitor`.
+These urls are protected by a custom Django permission `tracking.track_view_visitor`.
 Thus only superusers and users granted this permission can view these pages.
 
 Available URLs
